@@ -12,6 +12,10 @@
 		542DE7831FD58CF400392A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542DE7811FD58CF400392A77 /* Main.storyboard */; };
 		542DE7851FD58CF400392A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542DE7841FD58CF400392A77 /* Assets.xcassets */; };
 		542DE7881FD58CF400392A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542DE7861FD58CF400392A77 /* LaunchScreen.storyboard */; };
+		542DE7901FD5945F00392A77 /* MachineRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542DE78F1FD5945F00392A77 /* MachineRecognitionController.swift */; };
+		542E3F031FD6E9AC00862B28 /* ScrapeComparisonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E3F021FD6E9AC00862B28 /* ScrapeComparisonController.swift */; };
+		544CF4942039B57C00B440BB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544CF4932039B57C00B440BB /* ARViewController.swift */; };
+		5481FEB01FD820BC005D22D6 /* CarRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5481FEAE1FD820AC005D22D6 /* CarRecognition.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		542DE7841FD58CF400392A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542DE7871FD58CF400392A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542DE7891FD58CF400392A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542DE78F1FD5945F00392A77 /* MachineRecognitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineRecognitionController.swift; sourceTree = "<group>"; };
+		542E3F021FD6E9AC00862B28 /* ScrapeComparisonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapeComparisonController.swift; sourceTree = "<group>"; };
+		544CF4932039B57C00B440BB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		5481FEAE1FD820AC005D22D6 /* CarRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CarRecognition.mlmodel; path = ../../../Downloads/CarRecognition.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			children = (
 				542DE77C1FD58CF400392A77 /* Project */,
 				542DE77B1FD58CF400392A77 /* Products */,
+				5481FEB11FD82225005D22D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,23 @@
 			children = (
 				542DE77D1FD58CF400392A77 /* AppDelegate.swift */,
 				542DE77F1FD58CF400392A77 /* ViewController.swift */,
+				542DE78F1FD5945F00392A77 /* MachineRecognitionController.swift */,
+				542E3F021FD6E9AC00862B28 /* ScrapeComparisonController.swift */,
+				5481FEAE1FD820AC005D22D6 /* CarRecognition.mlmodel */,
 				542DE7811FD58CF400392A77 /* Main.storyboard */,
 				542DE7841FD58CF400392A77 /* Assets.xcassets */,
 				542DE7861FD58CF400392A77 /* LaunchScreen.storyboard */,
 				542DE7891FD58CF400392A77 /* Info.plist */,
+				544CF4932039B57C00B440BB /* ARViewController.swift */,
 			);
 			path = Project;
+			sourceTree = "<group>";
+		};
+		5481FEB11FD82225005D22D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544CF4942039B57C00B440BB /* ARViewController.swift in Sources */,
 				542DE7801FD58CF400392A77 /* ViewController.swift in Sources */,
 				542DE77E1FD58CF400392A77 /* AppDelegate.swift in Sources */,
+				542DE7901FD5945F00392A77 /* MachineRecognitionController.swift in Sources */,
+				542E3F031FD6E9AC00862B28 /* ScrapeComparisonController.swift in Sources */,
+				5481FEB01FD820BC005D22D6 /* CarRecognition.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
